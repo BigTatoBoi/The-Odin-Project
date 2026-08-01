@@ -1,0 +1,3 @@
+[submodule "JavaScriptBasics/MyJavaScriptFiles/JavaScriptBasics/javascript-exercises"]
+	path = JavaScriptBasics/MyJavaScriptFiles/JavaScriptBasics/javascript-exercises
+	url = https://github.com/TheOdinProject/javascript-exercises.git

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function add7(number) {
+            return number + 7
+        }
+        console.log(add7(10))
+
+        function multiply(num1, num2) {
+            return num1 * num2
+        }
+        console.log(multiply(3, 2));
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+        }
+        console.log(capitalize("abcd"));
+        console.log(capitalize("ABCD"));
+        console.log(capitalize("aBcD"));
+
+        function lastLetter(str) {
+            return str.slice(-1)
+        }
+        console.log(lastLetter("abcd"));
+    </script>
+</body>
+
+</html>
